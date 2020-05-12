@@ -1,0 +1,10 @@
+*sftp-config.json
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+_notes/
+*~
+vendor/
+*.before
+dist/
