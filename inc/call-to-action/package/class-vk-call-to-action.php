@@ -562,7 +562,7 @@ if ( class_exists( 'Vk_Font_Awesome_Versions' ) ) {
 				)
 			);
 			foreach ( $posttypes  as $key => $posttype ) {
-				$option[ $posttype ] = false;
+				$option[ $posttype ] = '0';
 			}
 			return $option;
 		}
@@ -635,7 +635,7 @@ if ( class_exists( 'Vk_Font_Awesome_Versions' ) ) {
 			// 表示しないを先頭に追加
 			array_unshift(
 				$ctas, array(
-					'key'   => 0,
+					'key'   => '0',
 					'label' => __( 'Disable display', $vk_call_to_action_textdomain ),
 				)
 			);
